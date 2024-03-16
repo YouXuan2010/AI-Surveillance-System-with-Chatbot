@@ -39,7 +39,7 @@ To get started with the AI Surveillance System, follow these steps:
 
 4. **Run the System**:
     ```bash
-    python main.py
+    python telebot.py
     ```
 
 5. **Access the Telegram Bot**:
