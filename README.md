@@ -55,11 +55,16 @@ To get started with the AI Surveillance System, follow these steps:
     - Search for your Telegram Bot by its username.
     - Interact with your Bot to start the surveillance server and check real-time camera feed.
 
-## Usage
+## Example Demo
+The camera will process the image and detect if there's any people in the image\
+For example at some point, the camera captured this:
+<img width="700" alt="image" src="https://github.com/YouXuan2010/AI-Surveillance-System-with-Chatbot/assets/100280753/0705c5f0-0be1-4e8e-a651-4de69f4d2155">
 
-- Upon starting the system, it continuously monitors the camera feed.
-- When a person is detected, a 5-second video is recorded, and a security log file is generated.
-- Users can access the system and interact with it via the Telegram Bot.
+The image-to-text model will detect the presence of people and then imform the user via telegram app:
+<img width="400" alt="image" src="https://github.com/YouXuan2010/AI-Surveillance-System-with-Chatbot/assets/100280753/7f91182d-9c86-42c7-ae17-6b6b88e83e60">
+
+The security log will be saved in the Security_Logs.txt for future references:
+<img width="1000" alt="image" src="https://github.com/YouXuan2010/AI-Surveillance-System-with-Chatbot/assets/100280753/80cc5d7d-8ffa-462b-bf66-91f48b9e7a81">
 
 ## Contributing
 
