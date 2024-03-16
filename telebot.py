@@ -77,7 +77,8 @@ async def send_message(update, context, timeout=15):
     bot = context.bot
 
     # Specify the directory to search for video files
-    video_directory = "C:/Users/youxu/Desktop/AI Surveillance System/video"
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    video_directory = os.path.join(current_dir, "video")
 
     # Get the latest video file path
     video_file_path = get_latest_video_file(video_directory)

@@ -156,8 +156,9 @@ def save_file(file_path, text):
 def main():
 
     stream_url = 'http://192.168.0.103:8080/video'
-    images_dir = "C:/Users/youxu/Desktop/AI Surveillance System/images"
-    video_dir = "C:/Users/youxu/Desktop/AI Surveillance System/video"
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    images_dir = os.path.join(current_dir, "images")
+    video_dir = os.path.join(current_dir, "video")
 
     person_detected = False
 
