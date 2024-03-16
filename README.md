@@ -25,7 +25,7 @@ To get started with the AI Surveillance System, follow these steps:
 
 1. **Clone the Repository**: 
     ```bash
-    git clone https://github.com/your-username/AI-Surveillance-System.git
+    git clone https://github.com/YouXuan2010/AI-Surveillance-System-with-Chatbot.git
     ```
 
 2. **Install Dependencies**: 
