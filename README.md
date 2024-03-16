@@ -1,4 +1,4 @@
-# AI Surveillance System
+# AI Surveillance System with Chatbot (In Progress)
 
 The AI Surveillance System is a project designed to provide automated surveillance capabilities using artificial intelligence. 
 This system utilizes image-to-text processing to describe images and detect the presence of individuals within camera frames. 
