@@ -1,6 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from dotenv import load_dotenv
+from datetime import datetime
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import CallbackQueryHandler
 import aiss
@@ -8,15 +9,6 @@ import os
 import glob
 import cv2
 import asyncio
-
-from openai import OpenAI
-import openai
-from PIL import Image
-from transformers import AutoModelForCausalLM, AutoTokenizer
-import time
-import datetime
-
-
 
 # Load environment variables from .env file
 load_dotenv()
