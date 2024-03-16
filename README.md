@@ -35,16 +35,25 @@ To get started with the AI Surveillance System, follow these steps:
 
 3. **Configure Telegram Bot**:
     - Obtain a Telegram Bot token from the BotFather.
-    - Replace the placeholder token in `telegram_bot.py` with your actual token.
+    - Create .env file under the project directory:
+   ```bash
+   TELEGRAM_BOT_TOKEN=XXXXXXXXXXX
+   ```
+4. **Setup Camera and LM Studio server**:
+    - Download IP Webcam from Playstore (Only tested using Android phone, Apple user can find others)
+    - Start camera server and update *stream_url* in aiss.py
+    - Install LM Studio and download any LLM model from HuggingFace Model Hub
+    - Start your local LLM server and update the *base_url* in aiss.py 
 
-4. **Run the System**:
+
+5. **Run the System**:
     ```bash
     python telebot.py
     ```
 
-5. **Access the Telegram Bot**:
+6. **Access the Telegram Bot**:
     - Search for your Telegram Bot by its username.
-    - Interact with the Bot to start the surveillance server and check real-time camera feed.
+    - Interact with your Bot to start the surveillance server and check real-time camera feed.
 
 ## Usage
 
