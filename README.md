@@ -8,7 +8,7 @@ Addtionally, a Telegram Bot has been deployed to facilitate a more user-friendly
 
 ## Features
 
-- Image-to-text processing for image description
+- Image-to-text processing for image description using moondream1 (Built by @vikhyatk using SigLIP, Phi-1.5 and the LLaVa training dataset)
 - Person detection within camera frames
 - Automated 5-second video recording upon person detection
 - Generation of security log files with date and time stamps
